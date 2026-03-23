@@ -6,7 +6,7 @@ pipeline {
         REGION = "us-east-1"
         EC2_USER = "ec2-user"
         EC2_IP   = "44.192.108.234"
-        PEM_FILE = "~/ansible_project/test99.pem"
+        PEM_FILE = "/var/lib/jenkins/test99.pem"
     }
 
     stages {
