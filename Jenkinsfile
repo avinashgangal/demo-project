@@ -5,7 +5,7 @@ pipeline {
         ECR_REPO = "060476966176.dkr.ecr.us-east-1.amazonaws.com/demo-app-repo"
         REGION = "us-east-1"
         EC2_USER = "ec2-user"
-        EC2_IP   = "44.192.108.234"
+        EC2_IP   = "3.237.63.23"
         PEM_FILE = "/var/lib/jenkins/test99.pem"
     }
 
