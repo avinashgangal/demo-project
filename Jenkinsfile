@@ -53,7 +53,7 @@ pipeline {
 
     post {
         success {
-            echo 'the Pipeline completed successfully! Your app is live on EC2.'
+            echo 'the new Pipeline completed successfully! Your app is live on EC2.'
         }
         failure {
             echo 'Pipeline failed. Check console output for errors.'
